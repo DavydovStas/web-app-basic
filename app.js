@@ -24,6 +24,13 @@ app.get('/products', (req, res) => {
   });
 });
 
+app.get('/product/:productId', (req, res) => {
+  console.log(req.params);
+
+  const product = products.find(p => p.id === req.params.productId);
+  res.render('product', { product });
+});
+
 app.listen(4444, () => {
   console.log('Hello my dear friend');
 });
