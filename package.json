@@ -1,0 +1,27 @@
+{
+  "name": "web-app-basic",
+  "version": "1.0.0",
+  "description": "начало работы над веб-приложением",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavydovStas/web-app-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavydovStas/web-app-basic/issues"
+  },
+  "homepage": "https://github.com/DavydovStas/web-app-basic#readme",
+  "dependencies": {
+    "-": "0.0.1",
+    "D": "^1.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "nodemon": "^2.0.5"
+  }
+}
