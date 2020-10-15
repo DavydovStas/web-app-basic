@@ -4,6 +4,7 @@
   "description": "начало работы над веб-приложением",
   "main": "index.js",
   "scripts": {
+    "start": "nade app.js",
     "dev": "nodemon app.js"
   },
   "repository": {
